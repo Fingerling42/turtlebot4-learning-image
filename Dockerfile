@@ -32,4 +32,4 @@ ENV ROS_SUPER_CLIENT=TRUE
 
 USER $USERNAME
 
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]
