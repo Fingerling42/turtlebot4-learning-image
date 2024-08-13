@@ -20,5 +20,5 @@ The image is deployed using [Robot Agent]((https://github.com/merklebot/robot-ag
 To make all ROS entities available inside a Docker container, the image must be run with the network, IPC mode and PID namespace using the host:
 
 ```bash
-docker run -it --net=host --ipc=host --pid=host fingerling42/turtlebot4-learning:humble
+docker run -it -e ROS_DISCOVERY_SERVER=RASP_PI_IP:11811 ghcr.io/fingerling42/turtlebot4-learning-image:humble
 ```
