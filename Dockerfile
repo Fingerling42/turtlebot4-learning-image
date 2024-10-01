@@ -12,6 +12,7 @@ WORKDIR /ros2_user_ws
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo \
     ros-dev-tools \
+    ros-humble-teleop-twist-keyboard \
     ros-humble-turtlebot4-robot \
     ros-humble-turtlebot4-navigation \
     ros-humble-irobot-create-control \
